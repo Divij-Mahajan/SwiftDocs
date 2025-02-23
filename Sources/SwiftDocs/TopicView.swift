@@ -1,10 +1,3 @@
-//
-//  TopicView.swift
-//  
-//
-//  Created by divij mahajan on 22/02/25.
-//
-
 import SwiftUI
 
 
@@ -14,17 +7,12 @@ struct TopicView: View {
     
     var body: some View {
         VStack {
-            Text(topic)
-                .font(.largeTitle)
-                .bold()
-                .padding()
-            
             ScrollView {
                 MarkdownView(content: content)
             }
         }
         .padding()
     }
-
-
+    
+    
 }
