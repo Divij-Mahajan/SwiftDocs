@@ -26,7 +26,7 @@ SwiftDocs is distributed using the **Swift Package Manager (SPM)**.
 ## **Basic Usage**
 To integrate SwiftDocs into your SwiftUI app, simply create a SwiftDocsView and pass in Markdown content.
 
-```
+```swift
 import SwiftUI
 
 struct LearnView: View {
